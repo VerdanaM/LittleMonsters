@@ -5,9 +5,15 @@
 FARBEN
 ======
 
+Orange => #f5a000
+Blau => #00a6dd
+Grau => #9d9c9c
+
 
 FONTS
 ======
+
+Open Sans
 
 
 */
@@ -60,6 +66,145 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* ##################################### */
+/* FONT */
+/* ##################################### */
+
+@font-face {
+    font-family: 'populairemedium';
+    src: url('../fonts/Populaire-webfont.eot');
+    src: url('../fonts/Populaire-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Populaire-webfont.woff2') format('woff2'),
+         url('../fonts/Populaire-webfont.woff') format('woff'),
+         url('../fonts/Populaire-webfont.ttf') format('truetype'),
+         url('../fonts/Populaire-webfont.svg#populairemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h4 {
+	font-size: 47px;
+	font-family: populairemedium;
+	color: #f5a000;
+}
+
+/* ##################################### */
+/* MAIN */
+/* ##################################### */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #9d9c9c;
+	width: 960px;
+	margin: 0px auto;
+}
+
+/* ##################################### */
+/* FOOTER */
+/* ##################################### */
+
+.logo_footer {
+	text-align: center;
+}
+
+.logo_footer img {
+	margin-bottom: 15px;
+}
+
+.footer_split ul {
+	float: left;
+	margin-right: 145px;
+	margin-top: 75px;
+}
+
+.footer_split li, p {
+	padding-bottom: 4px;
+}
+
+.footer_split ul li h4 {
+	margin-bottom: 10px;
+}
+
+.footer_split ul li a {
+	text-decoration: none;
+	color: #9d9c9c;
+}
+
+.footer_split ul li a:hover {
+	color: #f5a000;
+	text-decoration: underline;
+}
+
+.footer_right ul {
+	width: 470px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+.footer_right p {
+	font-size: 14px;
+	font-style: italic;
+	margin-top: 8px;
+}
+
+.newsletter_input {
+	background-color: #f5a000;
+  	height: 57px;
+  	width: 298px;
+  	border: 0px;
+  	padding-left: 16px;
+  	font-family: opensans;
+  	font-size: 16px;
+  	color: #fff;
+}
+
+	::-webkit-input-placeholder {
+	   color: #fff;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #fff;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #fff;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #fff;  
+	}
+
+.newsletter_button {
+	background-color: #fff;
+  	height: 59px;
+  	width: 150px;
+  	border: 3px solid #f5a000;
+  	font-family: opensans;
+  	font-size: 16px;
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	color: #f5a000;
+}
+
+.newsletter_button:hover {
+	background-color: #00a6dd;
+	color: #fff;
+	border: 3px solid #00a6dd;
+}
+
+.horizontal_line {
+	color: #f5a000;
+  	background-color: #f5a000;
+ 	height: 1px;
+  	border: none;
+  	margin-top: 45px;
+  	margin-bottom: 10px;
+}
+
+
 
 /* ##################################### */
 /* MODULE */
