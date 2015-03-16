@@ -463,7 +463,41 @@ footer{
   	margin-bottom: 10px;
 }
 
+/* ##################################### */
+/* MODULE */
+/* ##################################### */
 
+
+/* ##################################### */
+/* HELPER CLASSES */
+/* ##################################### */
+
+.clearfix:after {
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden
+}
+
+.hide_element {
+	position: absolute;
+	left: -9999em;
+	width: 1px;
+	height: 1px;
+	top: auto;
+	overflow: hidden;
+}
+
+.wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*   ENDE CSS   */
 
 
 
