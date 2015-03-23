@@ -83,10 +83,15 @@ ol.progress li.progress-todo:before {
     background-color: #fff;
     display: inline-block;
     margin-right: 60px;
+    margin-bottom: 28px;
 }
 
-.box-form {
+.box-form-left {
     padding: 24px 0px 20px 60px;
+}
+
+.box-form-right {
+    padding: 24px 0px 20px 12px;
 }
 
 .blockone {
@@ -103,10 +108,19 @@ ol.progress li.progress-todo:before {
     height: 35px;
     margin-bottom: 11px;
     border: 1px solid #c9e8f8;
+    line-height: 1.5em;
+}
+
+.input-style-right {
+    width: 307px;
+    height: 35px;
+    margin-bottom: 11px;
+    border: 1px solid #c9e8f8;
+    line-height: 1.5em;
 }
 
 .anmelden {
-    width: 353px;
+    width: 310px;
     height: 35px;
     border: 0px;
     background-color: #008fd3;
@@ -121,7 +135,6 @@ ol.progress li.progress-todo:before {
 
 .trusted {
     width: 50px;
-    align: middle;
 }
 
 
