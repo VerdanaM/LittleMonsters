@@ -1,0 +1,159 @@
+/* ##################################### */
+/* CHECKOUT PROCESS STEP 1*/
+/* ##################################### */
+
+ol.progress {
+    margin: 0;
+    padding: 0;
+    list-style-type none;
+    font-size: 14px;
+   	padding-bottom: 16px;
+}
+
+ol.progress li {
+    display: inline-block;
+    text-align: center;
+    line-height: 3em;
+}
+
+ol.progress[data-progress-steps="2"] li { width: 49%; }
+ol.progress[data-progress-steps="3"] li { width: 33%; }
+ol.progress[data-progress-steps="4"] li { width: 24%; }
+
+ol.progress li.progress-done {
+    color: #0081c6;
+    border-bottom: 2px solid #c9e8f8;
+    padding-bottom: 16px;
+}
+
+ol.progress li.progress-todo {
+    color: #9d9c9c; 
+    border-bottom: 2px solid #9d9c9c;
+    padding-bottom: 16px;
+}
+
+ol.progress li:after {
+    content: "\00a0\00a0";
+}
+ol.progress li:before {
+    position: relative;
+    bottom: -45px;
+    float: left;
+    left: 50%;
+    line-height: 1em;
+}
+ol.progress li.progress-done:before {
+    content: "•";
+    color: #fff;
+    background-color: #00a6dd;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    /* border: none; */
+    border-radius: 70%;
+}
+ol.progress li.progress-todo:before {
+    content: "•";
+    color: #fff;
+    background-color: #9d9c9c;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    /* border: none; */
+    border-radius: 70%;
+}
+
+.checkout-stepone {
+    background-color: #a6e0f3;
+    height: 830px;
+    background-image: url('../img/monster_bg.png');
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.boxleft {
+    width: 480px;
+    background-color: #fff;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.boxright {
+    width: 335px;
+    background-color: #fff;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.box-form {
+    padding: 24px 0px 20px 60px;
+}
+
+.blockone {
+    float: left;
+}
+
+.blocktwo {
+    width: 331px;
+    float: left;
+}
+
+.input-style {
+    width: 350px;
+    height: 35px;
+    margin-bottom: 11px;
+    border: 1px solid #c9e8f8;
+}
+
+.anmelden {
+    width: 353px;
+    height: 35px;
+    border: 0px;
+    background-color: #008fd3;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.trusted-eshop {
+    display: inline-block;
+}
+
+.trusted {
+    width: 50px;
+    align: middle;
+}
+
+
+::-webkit-input-placeholder {
+       color: #9d9c9c;
+       font-style: italic;
+       font-size: 14px;
+       padding-left: 13px;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+       color: #9d9c9c;
+       font-style: italic;  
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: #9d9c9c;
+       font-style: italic;  
+    }
+
+    :-ms-input-placeholder {  
+       color: #9d9c9c;
+       font-style: italic;  
+    }
+
+.checkout-headlines {
+    color: #3c3c3b;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.list-style ul li span {
+    font-size: 14px;
+}
+
