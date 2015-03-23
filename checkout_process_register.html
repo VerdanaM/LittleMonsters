@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>littlemonsters.at - Zahlungsvorgang</title>
+	<meta name="keywords" content="kindergeburtstag, party, lieferung, motto, littlemonsters, geburtstag" />
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="CSS/checkout.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,700,600,800' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<header>
+	<nav>
+	</nav>
+</header>
+
+<div class="checkout wrapper">
+	<h2 class="blue">Checkout</h2>
+
+	<div class="progress-indicator">
+		<ol class="progress" data-progress-steps="4">
+		    <li class="progress-done">Regsitrieren / Anmelden</li><!--
+		    --><li class="progress-todo">Zahlungsart wählen</li><!--
+		    --><li class="progress-todo">Bestellung überprüfen</li><!--
+		    --><li class="progress-todo">Vielen Dank</li>
+		</ol>
+	</div>
+</div>
+
+<div class="checkout-stepone">
+	<div class="blockone">
+		<p class="checkout-headlines">Registrieren</p>
+			<div class="register boxleft">
+				<div class="box-form">
+						<form action="#" method="post" enctype="multipart/form-data">
+							<label for="frau">Frau</label>
+							<input type="radio" name="geschlecht" id="frau" value="frau">
+							<label for="herr">Herr</label>
+							<input type="radio" name="geschlecht" id="herr" value="herr"><br/><br/>
+							<input type="text" name="vorname" placeholder="Vorname eingeben" class="input-style"><br/>
+							<input type="text" name="nachname" placeholder="Nachname eingeben" class="input-style"><br/>
+							<input type="text" name="adresse" placeholder="Adresse eingeben" class="input-style"><br/>
+							<input type="nummber" name="plz" placeholder="PLZ" class="input-style"><br/>
+							<select class="input-style">
+								<option>
+									Österreich
+								</option>
+								<option>
+									Deutschland
+								</option>
+							</select><br/>
+							<input type="email" name="email" placeholder="E-Mail Adresse eingeben" class="input-style"><br/>
+							<input type="password" name="passwort" placeholder="Passwort eingeben" class="input-style"><br/>
+							<input type="password" name="passwort-reply" placeholder="Passwort wiederholen" class="input-style"><br/>
+						</form>
+				</div>
+			</div>
+	</div>
+
+	<div class="blocktwo">
+		<p class="checkout-headlines">Anmelden</p>
+			<div class="login boxright">
+				<div class="box-form">
+						<form action="#" method="post" enctype="multipart/form-data">
+							<input type="email" name="email" placeholder="Email Adresse eingeben" class="input-style"><br/>
+							<input type="password" name="passwort" placeholder="Passwort eingeben" class="input-style"><br/>
+							<a href="#">>Email oder Passwort vergessen?</a><br/>
+						<button class="anmelden">Anmelden</button>
+						</form>
+				</div>
+			</div>
+	</div>
+
+	<div>
+		<div class="login boxright clearfix">
+			<div class="box-form">
+				<p class="trusted-eshop">
+					<img src="img/trusted_eshops.png" name="Trusted Eshops" alt="littlemonsters Trusted Eshop" class="trusted">
+					Sicher und bequem einkaufen
+				</p>
+
+				<ul class="list-style">
+					<li><img src="img/hackerl.png"><span>Flexibilität durch viele verschiedene Zahlarten</span></li>
+					<li><img src="img/hackerl.png"><span>Sichere Zahlung und Datenübertragung durch SSL-Verschlüsselung</span></li>
+					<li><img src="img/hackerl.png"><span>Konto anlegen und bei der nächsten Bestellung einfach anmelden</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
